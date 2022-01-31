@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scaled=1.0">
+        <title>SIGN UP FORM</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div>
+        <form action="">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="student_name" placeholder="Type your name....">
+
+            <label for="mail">Email</label>
+            <input type="email" name="student_email" id="mail" placeholder="name@example.com">
+
+            <label for="password">Password</label><br>
+            <input type="password" name="student_password" id="password" placeholder="Password">
+
+            <label for="bio">Biography</label><br>
+            <textarea name="student_bio" id="bio" cols="30" rows="10"></textarea>
+
+            <label for="courses">Select Courses</label>
+            <select name="student_courses" id="courses">
+                <option value="computer_engineering">Computer Science Engineering</option>
+                <option value="electrical_engineering">Electrical Engineering</option>
+                <option value="civil_engineering">Civil Engineering</option>
+                <option value="mechanical_engineering">Mechanical Engineering</option>
+                <option value="chemical_engineering">Chemical Engineering</option>
+            
+                
+                <optgroup label="Management">
+                    <option value="finance_management">Finance Management</option>
+                    <option value="technology_management">Technology Management</option>
+                    <option value="marketing_management">Marketing Management</option>
+                    <option value="business_management">BusinessManagement</option>
+                </optgroup>
+            </select>
+            <div>
+            <button>Submit</button>
+            <input type="submit" value="next">
+            </div>
+            
+
+        </form>
+    </div>
+    </body>
+    </html>
